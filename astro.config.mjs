@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
 
-  site: "aditya-jyoti.github.io",
+  site: "https://aditya-jyoti.github.io",
   base: "cn-proj",
 });

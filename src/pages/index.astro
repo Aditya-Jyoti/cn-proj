@@ -1,0 +1,63 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="CN PROJECT">
+  <main class="min-h-screen flex flex-col">
+    <nav class="flex justify-between text-white font-semibold text-4xl p-8">
+      <span> SMART PARKING </span>
+
+      <div class="flex gap-4">
+        <a
+          href="/about"
+          class="text-2xl uppercase tracking-wide text-black bg-white hover:bg-white/20 hover:text-white transition-all duration-300 py-1 w-[10rem] rounded-lg text-center"
+          >about</a
+        >
+        <a
+          href="/team"
+          class="text-2xl uppercase tracking-wide text-black bg-white hover:bg-white/20 hover:text-white transition-all duration-300 py-1 w-[10rem] rounded-lg text-center"
+          >team</a
+        >
+      </div>
+    </nav>
+
+    <div class="flex w-[90%] mx-auto flex-grow">
+      <div class="text-xl text-white flex flex-col gap-4 px-4">
+        <span>
+          The smart parking system you're developing is a cutting-edge solution
+          that leverages ESP devices, or potentially internal vehicle networks
+          in larger implementations, to accurately track vehicle locations and
+          ensure they are parked in designated spots. Unlike traditional parking
+          systems that rely on ultrasonic sensors, this system uses advanced
+          communication between the vehicles and the network, allowing for
+          precise and real-time monitoring.
+        </span>
+        <span>
+          Additionally, it empowers organizations with a user-friendly interface
+          that includes a drag-and-drop feature, making it simple to create and
+          manage parking spaces according to their specific needs.
+        </span>
+        <span>
+          This innovative approach enhances parking management efficiency,
+          reduces unauthorized parking, and provides a seamless experience for
+          both operators and users.
+        </span>
+
+        <span class="text-center font-semibold py-32">EXTRA FEATURES (TBD)</span
+        >
+      </div>
+
+      <img
+        src="/cn-proj/map.jpg"
+        alt=""
+        class="w-[50rem] rounded-2xl border-2 p-1"
+      />
+    </div>
+
+    <footer
+      class="text-white flex items-center justify-center text-center py-8 text-xl uppercase"
+    >
+      made by <br /> aditya, joel and sam
+    </footer>
+  </main>
+</Layout>
